@@ -60,3 +60,11 @@ char *ft_itoa(int nb)
 	
 	return s;
 }
+/*int main(void)
+{
+	int nb = -2147483648;
+	char *s = ft_itoa(nb);
+	printf("%s\n", s);
+	free(s);
+	return 0;
+}*/

@@ -23,7 +23,7 @@ void	putnbr(int nb , int fd)
 	write(fd, &c, 1);
 }
 
-int main ()
+/*int main ()
 {
 	putnbr(42,1);
-}
+}*/
