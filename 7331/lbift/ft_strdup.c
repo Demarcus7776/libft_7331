@@ -21,7 +21,7 @@ char *ft_strdup(const char *str)
 
     len = ft_strln(str);
     i = 0;
-    s = malloc(sizeof(char) * len + 1);
+    s = (char *) malloc(sizeof(char) * len + 1);
 
     while(str[i])
     {
@@ -34,11 +34,11 @@ char *ft_strdup(const char *str)
     return s;
 }
 
-#include <stdio.h>
+/*#include <stdio.h>
 
 int main ()
 {
     char s[] = "lola";
 
     printf("%s", ft_strdup(s));
-}
+}*/

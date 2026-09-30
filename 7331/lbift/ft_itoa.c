@@ -27,7 +27,7 @@ char *ft_itoa(int nb)
 	char *s;
 
 	l = count(nb);
-	s = malloc(sizeof(char) * l + 1);
+	s = (char *)malloc(sizeof(char) * l + 1);
 	if(!s)
 		return NULL;
 	

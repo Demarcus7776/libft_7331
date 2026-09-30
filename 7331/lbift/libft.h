@@ -20,6 +20,8 @@ char    *ft_strrchr(const char *s, int c);
 size_t     ft_strncmp(char *s1, char *s2, size_t n);
 size_t    ft_atoi(const char *s);
 char *ft_strdup(const char *str);
-
+char    *ft_strcpy(char *src, char *dst);
+char    *ft_strncpy(char *src, char *dst, size_t n);
+size_t     ft_strcmp(char *s1, char *s2);
 
 #endif

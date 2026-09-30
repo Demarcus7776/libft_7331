@@ -46,14 +46,3 @@ char *ft_strtrim(char const *s1, char const *set)
 	s[k] = '\0';
 	return s;
 }
-
-/* #include <stdio.h>
-int main()
-{
-	char *s1 = "   Hello, World!   ";
-	char *set = " ";
-	char *trimmed = ft_strtrim(s1, set);
-
-	printf("%s" , trimmed);
-	return 0;
-}/*
